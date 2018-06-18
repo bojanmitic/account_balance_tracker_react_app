@@ -1,0 +1,23 @@
+html {
+  text-align: center;
+  font-family: sans-serif, helvetica,Arial;
+  background-color: #4c9b65;
+  color:white;
+  font-weight: 300;
+  list-style-type: none;
+}
+
+h2{
+  font-weight:300;
+}
+p{
+  font-weight: 300;
+}
+.totalIncomes, .totalExpenses{
+    margin-top: 50px;
+}
+li{
+  line-height: 25px;
+  font-weight: 300;
+  font-size:110%;
+}

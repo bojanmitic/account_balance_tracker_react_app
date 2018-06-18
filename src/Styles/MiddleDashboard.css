@@ -1,0 +1,24 @@
+.middleDashboard{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:26%;
+    grid-template-areas: 
+        "E I"
+        "B B";
+    margin: 2% 15%;
+}
+
+.expenses{
+    grid-area: E;
+    text-align:left;
+}
+.incomes{
+    grid-area: I;
+    text-align:left;
+}
+.balance{
+    grid-area: B;
+}
+.created{
+    padding:10px;
+}
